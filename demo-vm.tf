@@ -62,7 +62,7 @@ resource "azurerm_virtual_machine" "test" {
   vm_size               = "Standard_DS1_v2"
 #  availability_set_id   = "${azurerm_availability_set.test.id}"
 
-  # Uncomment this line to delete the OS disk automatically when deleting the VM
+  ######## Uncomment this line to delete the OS disk automatically when deleting the VM
  # delete_os_disk_on_termination = true
 
   # Uncomment this line to delete the data disks automatically when deleting the VM
